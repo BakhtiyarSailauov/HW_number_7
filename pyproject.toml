@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "HW_7"
+version = "0.1.0"
+description = ""
+authors = ["BAkhtiyar <cena61454@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.1"
+sqlalchemy = "^2.0.19"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
